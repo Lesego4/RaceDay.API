@@ -46,7 +46,7 @@ namespace RaceDay.Tests
             var controller = new AuthController(context);
             // We need to mock HttpContext.Session to avoid a null error
             var httpContext = new DefaultHttpContext();
-            httpContext.Session = new Mock<ISession>().Object;
+            httpContext.Session = new Moq<ISession>().Object;
             controller.ControllerContext = new ControllerContext { HttpContext = httpContext };
 
             var request = new LoginDto { Email = "test@test.com", Password = "WrongPassword" };
@@ -68,7 +68,7 @@ namespace RaceDay.Tests
 
             var controller = new AuthController(context);
             var httpContext = new DefaultHttpContext();
-            httpContext.Session = new Mock<ISession>().Object;
+            httpContext.Session = new Moq<ISession>().Object;
             controller.ControllerContext = new ControllerContext { HttpContext = httpContext };
 
             var request = new LoginDto { Email = "test@test.com", Password = "CorrectPassword" };

@@ -8,7 +8,7 @@ namespace RaceDay.API.Filters
         private readonly string _requiredRole;
 
         // Pass the role you want to check for (e.g., "Organiser")
-        public SessionAuthorizeAttribute(string requiredRole = null)
+        public SessionAuthorizeAttribute(string? requiredRole = null)
         {
             _requiredRole = requiredRole;
         }
