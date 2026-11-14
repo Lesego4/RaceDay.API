@@ -3,7 +3,7 @@ RaceDay API - Final POE
 Student Information
 - Name:Lesego
 - Student Number:ST10485315
-- **Module:** PROG6212
+- Module: PROG6212
 
 ## Setup Instructions
 1. Clone this repository.
