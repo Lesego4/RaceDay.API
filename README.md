@@ -11,7 +11,7 @@ Setup Instructions
 3. Open the Package Manager Console and run: `Update-Database`
 4. Press F5 to run the API. Swagger will open automatically.
 
-## Roles
+Roles
 - **Organiser:** Can create, update, and delete events, categories, and capture results.
 - **Participant:** Can view events, enroll in events, and view their own results.
 
