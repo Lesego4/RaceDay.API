@@ -19,7 +19,7 @@ CI/CD
 ![Green Build]
 
 
-## Docker Setup (MVC Application)
+Docker Setup (MVC Application)
 To run the MVC application inside a Docker container, use the following commands from the root directory:
 
 1. Build the Docker image:
