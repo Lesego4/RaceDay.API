@@ -1,4 +1,4 @@
-# RaceDay API - Part 2
+RaceDay API - Part 2
 
 Student Information
 - Name:Lesego
