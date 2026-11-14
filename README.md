@@ -15,9 +15,9 @@ Roles
 - Organiser: Can create, update, and delete events, categories, and capture results.
 - Participant: Can view events, enroll in events, and view their own results.
 
-## CI/CD
-![Green Build](YOUR_SCREENSHOT_LINK_HERE) 
-*(Take a screenshot of your green GitHub Actions checkmark and upload it to the repo, then link it here).*
+CI/CD
+![Green Build]
+
 
 ## Docker Setup (MVC Application)
 To run the MVC application inside a Docker container, use the following commands from the root directory:
