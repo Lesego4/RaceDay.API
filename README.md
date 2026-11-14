@@ -2,7 +2,7 @@ RaceDay API - Final POE
 
 Student Information
 - Name:Lesego
-- Student Number:** [Your Number]
+- Student Number: [Your Number]
 - **Module:** PROG6212
 
 ## Setup Instructions
