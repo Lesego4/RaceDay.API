@@ -12,8 +12,8 @@ Setup Instructions
 4. Press F5 to run the API. Swagger will open automatically.
 
 Roles
-- **Organiser:** Can create, update, and delete events, categories, and capture results.
-- **Participant:** Can view events, enroll in events, and view their own results.
+- Organiser: Can create, update, and delete events, categories, and capture results.
+- Participant: Can view events, enroll in events, and view their own results.
 
 ## CI/CD
 ![Green Build](YOUR_SCREENSHOT_LINK_HERE) 
