@@ -1,7 +1,7 @@
 # RaceDay API - Part 2
 
 ## Student Information
-- **Name:** [Your Name]
+- Name:Lesego
 - **Student Number:** [Your Number]
 - **Module:** PROG6212
 
