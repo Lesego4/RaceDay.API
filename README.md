@@ -5,7 +5,7 @@ Student Information
 - Student Number:ST10485315
 - Module: PROG6212
 
-## Setup Instructions
+Setup Instructions
 1. Clone this repository.
 2. Open the solution in Visual Studio.
 3. Open the Package Manager Console and run: `Update-Database`
