@@ -36,8 +36,9 @@ namespace RaceDay.API.Controllers
 
         // POST: api/events (Organiser only)
         [HttpPost]
-        [SessionAuthorize("Organiser")] // <--- The magic filter!
-        public async Task<IActionResult> CreateEvent(EventDto request)
+        [Consumes("multipart/form-data")] // <--- Tells API to expect a form with a file
+        //[SessionAuthorize("Organiser")]
+        public async Task<IActionResult> CreateEvent([FromForm] EventDto request, IFormFile imageFile) // <--- Added [FromForm] and the file parameter
         {
             var newEvent = new Event
             {

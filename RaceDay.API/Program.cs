@@ -4,7 +4,7 @@ using RaceDay.API.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Force it to run on a specific port if the launch settings are broken
-builder.WebHost.UseUrls("https://localhost:7199");
+
 
 // 1. Add Database Context
 builder.Services.AddDbContext<AppDbContext>(options =>
